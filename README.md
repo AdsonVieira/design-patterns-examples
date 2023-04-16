@@ -10,5 +10,6 @@ Creational patterns
 
 1. [Factory](https://github.com/AdsonVieira/design-patterns-examples/tree/main/src/creational/factory)
 2. [Singleton](https://github.com/AdsonVieira/design-patterns-examples/tree/main/src/creational/singleton)
+2. [Proxy](https://github.com/AdsonVieira/design-patterns-examples/tree/main/src/creational/proxy)
 
 
