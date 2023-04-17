@@ -1,4 +1,4 @@
-package creational.proxy;
+package structural.proxy;
 
 public class Book {
     private String isbn;
