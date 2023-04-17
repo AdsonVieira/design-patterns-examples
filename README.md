@@ -19,4 +19,4 @@ Structural patterns
 
 Behavioral patterns
 
-1. Strategy
+1. [Strategy](https://github.com/AdsonVieira/design-patterns-examples/tree/main/src/structural/behavioral)
