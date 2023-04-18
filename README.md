@@ -21,3 +21,4 @@ Behavioral patterns
 
 1. [Strategy](https://github.com/AdsonVieira/design-patterns-examples/tree/main/src/behavioral/strategy)
 2. [Observer](https://github.com/AdsonVieira/design-patterns-examples/tree/main/src/behavioral/observer)
+3. [Template Method](https://github.com/AdsonVieira/design-patterns-examples/tree/main/src/behavioral/TemplateMethod)
