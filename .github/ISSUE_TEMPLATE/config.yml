@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Guia de contribuição
+    url: https://github.com/AdsonVieira/design-patterns-examples/blob/main/CONTRIBUTING.md
+    about: Fluxo fork, branch, compile e Pull Request

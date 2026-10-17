@@ -1,4 +1,8 @@
+### Maven ###
+target/
+
 ### IntelliJ IDEA ###
+*.iml
 out/
 !**/src/main/**/out/
 !**/src/test/**/out/

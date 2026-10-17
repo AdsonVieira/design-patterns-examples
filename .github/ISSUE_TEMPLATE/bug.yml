@@ -1,0 +1,31 @@
+name: Bug
+description: Algo não compila ou o exemplo não se comporta como documentado
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: textarea
+    id: descricao
+    attributes:
+      label: Descrição
+    validations:
+      required: true
+  - type: input
+    id: padrao
+    attributes:
+      label: Padrão ou comando afetado
+      placeholder: ex. mvn compile ou behavioral.observer.Observer
+  - type: textarea
+    id: reproduzir
+    attributes:
+      label: Passos para reproduzir
+      value: |
+        1. mvn compile
+        2. java -cp target/classes ...
+  - type: textarea
+    id: esperado
+    attributes:
+      label: Comportamento esperado
+  - type: textarea
+    id: obtido
+    attributes:
+      label: Comportamento obtido

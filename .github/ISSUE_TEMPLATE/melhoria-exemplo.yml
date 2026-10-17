@@ -1,0 +1,26 @@
+name: Melhoria de exemplo
+description: Melhorar documentação ou código de um padrão existente
+title: "[Melhoria] "
+labels: ["documentation", "pattern"]
+body:
+  - type: input
+    id: padrao
+    attributes:
+      label: Padrão / pasta
+      placeholder: ex. structural/adapter
+    validations:
+      required: true
+  - type: textarea
+    id: problema
+    attributes:
+      label: O que melhorar?
+    validations:
+      required: true
+  - type: checkboxes
+    id: escopo
+    attributes:
+      label: Escopo
+      options:
+        - label: README (clareza, diagrama, cenários)
+        - label: Código (sem mudar a intenção do padrão)
+        - label: Passos de execução / saída esperada

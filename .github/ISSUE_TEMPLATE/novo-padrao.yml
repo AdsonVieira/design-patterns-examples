@@ -1,0 +1,45 @@
+name: Novo padrão
+description: Propor um exemplo didático de Design Pattern
+title: "[Padrão] "
+labels: ["pattern"]
+body:
+  - type: dropdown
+    id: categoria
+    attributes:
+      label: Categoria
+      options:
+        - Criacional
+        - Estrutural
+        - Comportamental
+    validations:
+      required: true
+  - type: input
+    id: nome
+    attributes:
+      label: Nome do padrão
+      placeholder: ex. Builder
+    validations:
+      required: true
+  - type: textarea
+    id: objetivo
+    attributes:
+      label: Objetivo
+      description: O que o exemplo deve ensinar?
+    validations:
+      required: true
+  - type: checkboxes
+    id: escopo
+    attributes:
+      label: Escopo
+      options:
+        - label: Exemplo Java pequeno e executável (classe main)
+        - label: README em português (intenção, 3 cenários, trade-offs, diagrama)
+        - label: Passos reproduzíveis de execução (mvn compile + java)
+        - label: Atualizar índice no README raiz
+  - type: textarea
+    id: criterios
+    attributes:
+      label: Critérios de aceite adicionais
+      value: |
+        - Sem dependências de framework desnecessárias
+        - Instruções alinhadas ao Maven do repositório
